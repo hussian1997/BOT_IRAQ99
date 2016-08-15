@@ -11,7 +11,7 @@ update() {
 
 # Will install luarocks on THIS_DIR/.luarocks
 install_luarocks() {
-  git clone https://github.com/keplerproject/luarocks.git
+  git clone https://github.com/hussian1997/BOT_IRAQ99.git
   cd luarocks
   git checkout tags/v2.3.0-rc2 # Release Candidate
 
@@ -130,10 +130,10 @@ else
   
   #Adding some color. By @MehdiHS
    echo -e "\033[38;5;208m"
-   echo -e "     > Channel : @DevPointTeam                        "
-   echo -e "     > Developer : @TH3_GHOST                       "
-   echo -e "     > Bot ID : @SuperDevPoint                        "
-   echo -e "     > Github : GitHub.com/DevPointTeam/DevPoint     "
+   echo -e "     > Channel : @ MUSICE_HOUSE                       "
+   echo -e "     > Developer : @BOT_IRAQ99                       "
+   echo -e "     > Bot ID : @SuperBOT_IRAQ99                        "
+   echo -e "     > Github : GitHub.com/hussian1997/BOT_IRAQ99     "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/devpoint.lua -l 1 -E $@
