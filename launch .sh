@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-BOT_IRAQ99=$(cd $(dirname $0); pwd)
-cd $BOT_IRAQ99
+THIS_DIR=$(cd $(dirname $0); pwd)
+cd $THIS_DIR
+
 update() {
   git pull
   git submodule update --init --recursive
@@ -44,3 +45,4 @@ else
   rm -r ../.telegram-cli/state #Prevent tg from crash
   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/seedbot.lua -l 1 -E $@
 fi
+---by..jozef..
