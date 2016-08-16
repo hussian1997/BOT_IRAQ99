@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-THIS_DIR=$(cd $(dirname $0); pwd)
-cd $THIS_DIR
-
+BOT_IRAQ99=$(cd $(dirname $0); pwd)
+cd $BOT_IRAQ99
 update() {
   git pull
   git submodule update --init --recursive
